@@ -1,13 +1,33 @@
+[English](README-EN.md)
+
 # Unity 計時器
 
 這是一個輕量級的計時器工具，可用於 Unity 遊戲中。提供了一個簡單的API，讓您可以創建計時器，設置持續時間，啟動和停止計時器，以及註冊計時器回調。它是建基於 [UniTask](https://github.com/Cysharp/UniTask)，使用`C# 7.0`的`async/await`語法進行實現。
 
-## 安裝 
+## 安裝
 
+### 方法 1：使用 Unity Package Manager (推薦)
+您可以透過 Unity Package Manager (UPM) 使用 Git URL 直接安裝：
+
+1. 打開 Unity，前往 `Window` -> `Package Manager`。
+2. 點擊左上角的 `+` 按鈕，選擇 **"Add package from git URL..."**。
+3. 輸入下列 Git URL 並點擊 **"Add"**：`https://github.com/hhs456/com.toolkid.unitytimer.git`
+4. Unity 會自動下載並安裝 `Unity-Timer`，您可以在 `Packages` 內找到它。
+
+### 方法 2：手動下載
 你可以通過以下步驟將 Timer 整合到你的 Unity 專案中：
 
-1. 從`GitHub`下載 [Unity-Timer](https://github.com/hhs456/Unity-Timer) 儲存庫。
+1. 從`GitHub`下載 [com.toolkid.unitytimer](https://github.com/hhs456/com.toolkid.unitytimer) 儲存庫。
 2. 複製`Timer.cs`文件到你的 Unity 項目中的 Assets 文件夾下。
+
+## 使用方法
+
+### 創建一個計時器
+
+要創建一個計時器，只需在 Unity 中創建一個新的`Timer`物件，並指定持續時間：
+
+```csharp
+Timer timer = new Timer(10f); // 設定持續時間為10秒
 
 ## 使用方法
 
