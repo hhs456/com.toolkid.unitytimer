@@ -11,8 +11,11 @@
 
 1. 打開 Unity，前往 `Window` -> `Package Manager`。
 2. 點擊左上角的 `+` 按鈕，選擇 **"Add package from git URL..."**。
-3. 輸入下列 Git URL 並點擊 **"Add"**：`https://github.com/hhs456/com.toolkid.unitytimer.git`
-4. Unity 會自動下載並安裝 `Unity-Timer`，您可以在 `Packages` 內找到它。
+3. 輸入下列 Git URL 並點擊 **"Add"**：
+```
+https://github.com/hhs456/com.toolkid.unitytimer.git
+```
+5. Unity 會自動下載並安裝 `Unity-Timer`，您可以在 `Packages` 內找到它。
 
 ### 方法 2：手動下載
 你可以通過以下步驟將 Timer 整合到你的 Unity 專案中：
