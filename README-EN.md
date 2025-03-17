@@ -11,7 +11,10 @@ You can install this package directly via Unity Package Manager (UPM) using a Gi
 
 1. Open Unity and go to `Window` -> `Package Manager`.
 2. Click the `+` button in the top-left corner and select **"Add package from git URL..."**.
-3. Enter the following Git URL and click **"Add"**: `https://github.com/hhs456/com.toolkid.unitytimer.git`
+3. Enter the following Git URL and click **"Add"**:
+```
+https://github.com/hhs456/com.toolkid.unitytimer.git
+```
 4. Unity will automatically download and install `Unity-Timer`, and you will find it under `Packages`.
 
 ### Method 2: Manual Installation
