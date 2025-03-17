@@ -31,15 +31,6 @@ https://github.com/hhs456/com.toolkid.unitytimer.git
 
 ```csharp
 Timer timer = new Timer(10f); // 設定持續時間為10秒
-
-## 使用方法
-
-### 創建一個計時器
-
-要創建一個計時器，只需在 Unity 中創建一個新的`Timer`物件，並指定持續時間：
-
-```csharp
-Timer timer = new Timer(10f); // 設定持續時間為10秒
 ```
 
 ### 註冊回調
